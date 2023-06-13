@@ -32,6 +32,7 @@ h2 {
 table {
     border: 2px solid #CC7178;
     border-radius: 10px;
+    margin: 0 auto;
 }
 
 th, td {
