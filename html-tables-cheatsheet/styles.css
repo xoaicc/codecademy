@@ -1,0 +1,50 @@
+body {
+    font-family: monospace;
+    background-color: #C7D9B7;
+}
+
+section {
+    margin: 50px auto;
+    width: 90%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #89023E;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #CC7178;
+    background-color: #F3E1DD;
+    width: fit-content;
+    border: 2px solid #CC7178;
+    margin: 20px auto;
+    padding: .2rem;
+    border-radius: 10px;
+}
+
+table {
+    border: 2px solid #CC7178;
+    border-radius: 10px;
+}
+
+th, td {
+    font-size: 1rem;
+    border: 1px solid #CC7178;
+    border-radius: 5px;
+    padding: .2rem;
+}
+
+th {
+    background-color: #FFD9DA;
+}
+
+td {
+    background-color: #F3E1DD;
+}
