@@ -1,0 +1,38 @@
+body {
+    font-family: Helvetica;
+}
+
+header {
+    height: 100px;
+    background: url("../images/pattern.jpeg") no-repeat;
+}
+
+header h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
+
+main section h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+main section #title-1 {
+    background-color: mediumspringgreen;
+}
+
+main section #title-2 {
+    background-color: lightcoral;
+}
+
+main section #title-3 {
+    background-color: skyblue;
+}
+
+main section article p .highlight {
+    font-weight: bold;
+    color: blue;
+}
