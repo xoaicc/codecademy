@@ -1,18 +1,14 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Footer() {
 
   // get the navigate function
+  const navigate = useNavigate();
 
-  const goBack = () => {
-    // imperatively redirect back
-    
-  }
+  const goBack = () => navigate(-1);
 
-  const goForward = () => {
-    // imperatively redirect forward
-    
-  }
+  const goForward = () => navigate(1);
 
   return (
     <footer>
